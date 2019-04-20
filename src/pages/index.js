@@ -9,5 +9,6 @@ export default () => (
       It's looking better and better but I still dont quite understand what's is
       going on
     </p>
+    <img src="https://source.unsplash.com/random/400x200" alt="" />
   </header>
 )
