@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "../components/header"
+import MainNav from "../components/nav"
 import BlogPost from "../components/blog-post"
 
 export default () => {
@@ -7,6 +8,7 @@ export default () => {
     <div>
       <header>
         <Header headerText="Blog page" />
+        <MainNav />
       </header>
       <main>
         <BlogPost title="Article1 title" content="Article1 content" />
